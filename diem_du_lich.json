@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "ten": "Thiền viện Trúc Lâm",
+        "dia_diem": "Đà Lạt",
+        "mo_ta": "Nơi thanh tịnh, bình yên, rất thích hợp để nghỉ ngơi tâm hồn. Không gian yên tĩnh, thư giãn đầu óc, bao quanh bởi rừng thông và cảnh quan tĩnh lặng của hồ Tuyền Lâm."
+    },
+    {
+        "id": 2,
+        "ten": "Chợ đêm Đà Lạt",
+        "dia_diem": "Đà Lạt",
+        "mo_ta": "Khu vực sầm uất, ồn ào và náo nhiệt về đêm. Thích hợp cho những người thích sự đông đúc, khám phá ẩm thực đường phố, mua sắm đặc sản và giao lưu văn hóa."
+    },
+    {
+        "id": 3,
+        "ten": "Đỉnh Langbiang",
+        "dia_diem": "Đà Lạt",
+        "mo_ta": "Khu du lịch sinh thái đồi núi, phong cảnh hùng vĩ. Phù hợp cho giới trẻ thích phiêu lưu, leo núi, các hoạt động mạo hiểm và khám phá thiên nhiên hoang dã."
+    },
+    {
+        "id": 4,
+        "ten": "Vinpearl Safari Phú Quốc",
+        "dia_diem": "Phú Quốc",
+        "mo_ta": "Công viên chăm sóc và bảo tồn động vật bán hoang dã. Không gian rộng lớn, rất phù hợp cho chuyến đi gia đình có trẻ em, khám phá thiên nhiên và tìm hiểu thế giới động vật."
+    },
+    {
+        "id": 5,
+        "ten": "Bãi Sao",
+        "dia_diem": "Phú Quốc",
+        "mo_ta": "Bãi biển tuyệt đẹp với cát trắng mịn và nước trong xanh. Điểm đến lý tưởng để tắm biển, thư giãn dưới ánh nắng, chụp ảnh check-in và tận hưởng không khí biển nhiệt đới."
+    }
+]
