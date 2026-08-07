@@ -1,21 +1,3 @@
-"""
-SCRAPE ẨM THỰC (gialaitourism.vn) + GỘP VỚI DỮ LIỆU DU LỊCH THÀNH 1 FILE EXCEL
-================================================================================
-File .csv KHÔNG có khái niệm "sheet" (đó là tính năng riêng của Excel .xlsx).
-Script này sẽ:
-  1. Scrape danh sách quán ăn/nhà hàng (formId 65)
-  2. Đọc lại dữ liệu điểm du lịch đã scrape trước đó (gialai_places.csv)
-  3. Gộp cả 2 vào 1 file .xlsx với 2 sheet: "Diem_du_lich" và "Am_thuc"
-
-CHÚ Ý VỀ ĐỘ TIN CẬY FIELD:
-  - vi_281, vi_282, vi_284, vi_285, vi_286, vi_664, vi_986, vi_524, vi_1139:
-    đã XÁC NHẬN qua HAR (đặc biệt vi_986 = "Đánh giá sao" tìm thấy trong
-    request bộ lọc tìm kiếm).
-  - vi_1101, vi_1102, vi_1089, vi_1004, 283: KHÔNG có displayName xuất hiện
-    trong HAR để xác nhận chắc chắn. Đây là suy đoán dựa trên giá trị mẫu
-    (vi_1101/vi_1102 dạng số 10-20 nên đoán là giờ mở/đóng cửa). Bạn nên
-    kiểm tra lại trên trang thật (xem hướng dẫn "XÁC MINH FIELD" bên dưới).
-"""
 
 import requests
 import json
